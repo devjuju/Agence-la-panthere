@@ -1406,7 +1406,6 @@ textarea {
 }
 
 a {
-    color: #337ab7;
     text-decoration: none
 }
 
@@ -1429,16 +1428,21 @@ figure {
 img {
     vertical-align: middle
 }
-
+/* changement */
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
     height: auto
 }
+
+
+
+
 
 .img-rounded {
     border-radius: 6px
@@ -1446,7 +1450,8 @@ img {
 
 .img-thumbnail {
     display: inline-block;
-    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
     height: auto;
     padding: 4px;
     line-height: 1.42857143;
@@ -1859,8 +1864,10 @@ abbr[title] {
 blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eee
+    font-size: 24px;
+    font-weight: 600;
+    border-left: 5px solid #eee;
+
 }
 
 blockquote ol:last-child,
@@ -1979,8 +1986,8 @@ pre code {
 }
 
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
     margin-right: auto;
     margin-left: auto
 }
@@ -2009,10 +2016,10 @@ pre code {
     margin-right: auto;
     margin-left: auto
 }
-
+/* changement */
 .row {
-    margin-right: -15px;
-    margin-left: -15px
+    margin-right: 0px;
+    margin-left: 0px
 }
 
 .col-lg-1,
@@ -2617,11 +2624,12 @@ pre code {
     .col-md-offset-3 {
         margin-left: 25%
     }
+    /* changement */
     .col-md-offset-2 {
-        margin-left: 16.66666667%
+        margin-left: 0;
     }
     .col-md-offset-1 {
-        margin-left: 8.33333333%
+        margin-left: 8.33333333%;
     }
     .col-md-offset-0 {
         margin-left: 0
