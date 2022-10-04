@@ -43,13 +43,15 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
 }
-
+/* changement */
 .bloc-lg {
-    padding: 100px 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-
+/* changement */
 .bloc-md {
-    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .bloc-sm {
@@ -564,10 +566,10 @@ a[data-lightbox]:hover img {
     display: flex;
     align-items: center;
 }
-
+/* changement */
 #lightbox-modal .modal-dialog {
     width: 90%;
-    max-width: 900px;
+    max-width: 570px;
     margin: 0 auto 0;
 }
 
@@ -577,7 +579,7 @@ a[data-lightbox]:hover img {
 }
 
 .lightbox-caption {
-    padding: 20px;
+    padding-top: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
     position: absolute;
@@ -606,12 +608,12 @@ a[data-lightbox]:hover img {
     opacity: 1.0;
     color: #FFF;
 }
-
+/* changement */
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
     color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    background: #f5f5f5;
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
@@ -628,9 +630,9 @@ a[data-lightbox]:hover img {
     padding: 6px 13px 1px 10px;
     left: 25px;
 }
-
+/* changement */
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 62px;
 }
 
 .snapshot-lb .lightbox-caption {
@@ -651,7 +653,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
 }
 
 .container {
@@ -675,13 +676,13 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+/* changement texte */
 p {
-    font-size: 11px;
+    font-size: 20px;
 }
-
+/* changement */
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 100%;
     margin: auto auto auto auto;
 }
 
@@ -703,21 +704,23 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-
+/* changement */
 h2 {
-    font-size: 22px;
+    font-size: 30px;
     line-height: 1.4em;
+    margin-bottom: 65px;
+    font-weight: 600;
 }
-
+/* changement */
 h3 {
-    font-size: 15px;
+    font-size: 24px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
-
+/* changement */
 .med-width-whitespace {
-    max-width: 800px;
+    max-width: 100%;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
@@ -751,10 +754,10 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
-
+/* changement */
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    padding: 100px 50px 100px 50px;
 }
 
 .bold-link {
@@ -773,8 +776,12 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
+/* changement */
 .tc-white {
+    color: #ffffff!important;
+}
+
+.tc-orange {
     color: #F3976C!important;
 }
 
@@ -824,6 +831,87 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+
+
+/* changement nouveau footer*/
+
+
+footer{
+    background-color: #F3976C;
+    padding-top: 100px;
+}
+
+.logo-2{
+    margin-bottom: 50px;
+}
+
+
+.nav-footer{
+    display:flex ;
+    justify-content: space-around;
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+    
+
+
+    
+
+}
+
+.footer-liens{
+    color: white;
+    text-decoration: none;
+}
+
+.resumer{
+    margin-top: 50px;
+    padding-left: 164px;
+    padding-right: 164px;
+}
+.footer-resumer{
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.footer-lieu{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.social{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.lieu{
+    margin-bottom: 64px;
+}
+.bloc-copyright{
+    background-color: #ffffff;
+}
+.copyright{
+    color: rgba(0, 0, 0, .5);
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1024px) {
     .bloc {
