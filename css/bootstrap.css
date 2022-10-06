@@ -1915,13 +1915,48 @@ blockquote.pull-right small:after {
 }
 
 
-
+@media (min-width:768px) {
+    blockquote {
+        padding: 10px 38px;
+        margin: 0 0 20px;
+        font-size: 22px;
+        font-weight: 600;
+        border-left: 5px solid #eee;
+    
+    }
+}
 
 @media (min-width:425px) {
     blockquote {
         padding: 10px 38px;
         margin: 0 0 20px;
         font-size: 20px;
+        font-weight: 600;
+        border-left: 5px solid #eee;
+    
+    }
+}
+
+
+@media (min-width:375px) {
+    blockquote {
+        padding: 10px 38px;
+        margin: 0 0 20px;
+        font-size: 18px;
+        font-weight: 600;
+        border-left: 5px solid #eee;
+    
+    }
+}
+
+
+
+
+@media (min-width:320px) {
+    blockquote {
+        padding: 10px 38px;
+        margin: 0 0 20px;
+        font-size: 18px;
         font-weight: 600;
         border-left: 5px solid #eee;
     
@@ -2091,6 +2126,15 @@ pre code {
 
     
 }
+
+
+
+
+
+
+
+
+
 
 .col-lg-1,
 .col-lg-10,
@@ -7873,7 +7917,8 @@ button.close {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    width: 100px;
 }
 
 .pull-right {
