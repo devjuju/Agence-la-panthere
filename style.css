@@ -1251,6 +1251,7 @@ footer{
     .footer-liens{
         color: white;
         text-decoration: none;
+        font-size: 25px;
     }
     
    
@@ -1400,6 +1401,7 @@ footer{
     .footer-liens{
         color: white;
         text-decoration: none;
+        font-size: 25px;
     }
 
     .col-logo2 {
@@ -1459,6 +1461,11 @@ footer{
         font-weight: 600;
     }
     #bloc-1-hero h1 {
+        font-size: 25px;
+    }
+    .footer-liens{
+        color: white;
+        text-decoration: none;
         font-size: 25px;
     }
 }
