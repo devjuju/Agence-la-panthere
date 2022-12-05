@@ -1951,6 +1951,7 @@ blockquote.pull-right small:after {
 @media (min-width:320px) {
     .citation {
         font-size: 18px;
+        color: black;
     }
 }
 address {
