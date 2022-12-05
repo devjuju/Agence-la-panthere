@@ -648,6 +648,7 @@ a[data-lightbox]:hover img {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
+    color: black;
 }
 
 h1,
@@ -922,6 +923,7 @@ footer{
 .copyright{
     color: rgba(0, 0, 0, .5);
     font-size: 18px;
+    color: black;
 }
 
 @media (max-width: 1024px) {
