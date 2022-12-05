@@ -688,6 +688,7 @@ a {
 /* changement texte */
 p {
     font-size: 20px;
+    color: black;
 }
 /* changement */
 .tight-width-whitespace {
@@ -719,6 +720,7 @@ h2 {
     line-height: 1.4em;
     margin-bottom: 65px;
     font-weight: 600;
+    color:#000000;
 }
 /* changement */
 h3 {
