@@ -317,7 +317,7 @@ a:hover {
     margin: 0 5px 0 0;
     display: inline;
 }
-/* changement */
+
 .navbar-brand img[src$=svg] {
     min-width: 196px;
 }
@@ -848,6 +848,11 @@ h4 {
 .contacter{
     padding-left: 50px;
 }
+
+
+
+
+
 /* changement nouveau footer*/
 
 
