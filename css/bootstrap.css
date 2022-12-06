@@ -4970,9 +4970,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     position: relative;
     display: block;
     padding: 10px 15px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
 }
 
 .nav>li>a:focus,
@@ -5374,6 +5371,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-nav {
     margin: 7.5px -15px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
 }
 
 @media (max-width:767px) {
@@ -5789,8 +5792,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus,
 fieldset[disabled] .navbar-inverse .btn-link:hover {
     color: #444;
 }
-
-
 
 .breadcrumb {
     padding: 8px 15px;
