@@ -911,6 +911,15 @@ footer{
     margin-bottom: 50px;
 }
 
+.lyon{
+    color:white;
+    text-decoration: underline;
+}
+
+.lyon:hover{
+    color:#F3976C;
+
+}
 
 .lieu{
     margin-bottom: 64px;
