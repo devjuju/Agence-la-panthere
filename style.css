@@ -238,7 +238,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: black;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -256,11 +256,11 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: black;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
+    color: black;
 }
 
 .d-bloc .panel .btn-wire,
@@ -648,6 +648,7 @@ a[data-lightbox]:hover img {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
+    color: black;
 }
 
 h1,
@@ -910,6 +911,14 @@ footer{
     margin-bottom: 50px;
 }
 
+.lyon{
+    color:white;
+    text-decoration: underline;
+}
+
+.lyon:hover{
+    color:#F3976C;
+}
 
 .lieu{
     margin-bottom: 64px;
@@ -922,6 +931,7 @@ footer{
 .copyright{
     color: rgba(0, 0, 0, .5);
     font-size: 18px;
+    color: black;
 }
 
 @media (max-width: 1024px) {
@@ -1193,7 +1203,7 @@ footer{
         font-size: 20px;
         text-transform: uppercase;
         font-weight: 700;
-        color: #333333!important;
+        color: #000000!important;
     }
 
     p {
