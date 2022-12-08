@@ -1167,6 +1167,11 @@ a.footer-liens:hover{
        
     }
 
+    a.footer-liens:hover{
+        color:#F3976C;
+        text-decoration: underline;
+    }
+
     .footer-lieu {
         color: #ffffff;
         font-size: 20px;
@@ -1290,6 +1295,11 @@ a.footer-liens:hover{
         color: white;
         text-decoration: none;
         font-size: 25px;
+    }
+
+    a.footer-liens:hover{
+        color:#F3976C;
+        text-decoration: underline;
     }
     
    
@@ -1447,6 +1457,11 @@ a.footer-liens:hover{
         font-size: 25px;
     }
 
+    a.footer-liens:hover{
+        color:#F3976C;
+        text-decoration: underline;
+    }
+
     .col-logo2 {
         display: flex;
         justify-content: start;
@@ -1519,6 +1534,11 @@ a.footer-liens:hover{
         color: white;
         text-decoration: none;
         font-size: 25px;
+    }
+
+    a.footer-liens:hover{
+        color:#F3976C;
+        text-decoration: underline;
     }
 }
 
