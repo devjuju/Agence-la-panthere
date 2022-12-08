@@ -5484,7 +5484,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
         font-size: 18px;
         text-align: center;
         font-weight: 600;
-        background-color: rgb(248, 248, 248);
+        color: white;
+        background-color: #333;
     }
 }
 
@@ -5497,7 +5498,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
         font-size: 18px;
         text-align: center;
         font-weight: 600;
-        background-color: rgb(248, 248, 248);
+        color: white;
+        background-color: #333;
     }
 }
 
@@ -5509,7 +5511,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
         font-size: 18px;
         text-align: center;
         font-weight: 600;
-        background-color: rgb(248, 248, 248);
+        color: white;
+        background-color: #333;
     }
 }
 
