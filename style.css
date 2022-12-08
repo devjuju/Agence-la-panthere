@@ -904,6 +904,11 @@ footer{
     text-decoration: none;
 }
 
+a.footer-liens:hover{
+    color:#F3976C;
+    text-decoration: underline;
+}
+
 .resumer{
     margin-top: 50px;
     padding-left: 164px;
