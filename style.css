@@ -98,7 +98,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -833,19 +833,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 .contacter{
@@ -1237,7 +1237,10 @@ footer{
     }
 
 
-
+    .btn-atomic-tangerine {
+        background: black;
+        color: #FFFFFF!important;
+    }
 
 
     footer{
@@ -1390,6 +1393,11 @@ footer{
         z-index: 1;
         opacity: 0.4;
     }
+    .btn-atomic-tangerine {
+        background: black;
+        color: #FFFFFF!important;
+    }
+
 
     footer{
         background-color: black;
@@ -1477,6 +1485,11 @@ footer{
     #bloc-1-hero h1 {
         font-size: 25px;
     }
+    .btn-atomic-tangerine {
+        background: black;
+        color: #FFFFFF!important;
+    }
+
     footer{
         background-color: black;
         padding-top: 50px;
