@@ -1190,6 +1190,21 @@ a.footer-liens:hover{
         min-width: 196px;
     }
     
+    .active.item-nav::after {
+        width: 100%;
+    }
+    
+    .item-nav::after {
+        content: "";
+        display: block;
+        width: 0%;
+        height: 2px;
+        margin: 0 auto;
+        color: #F3976C;
+        background-color: #ffffff00;
+        transition: width 0.3s ease-in-out;
+    }
+    
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1355,6 +1370,21 @@ a.footer-liens:hover{
 }
 
 @media (max-width: 375px) {
+    .active.item-nav::after {
+        width: 100%;
+    }
+    
+    .item-nav::after {
+        content: "";
+        display: block;
+        width: 0%;
+        height: 2px;
+        margin: 0 auto;
+        color: #F3976C;
+        background-color: #ffffff00;
+        transition: width 0.3s ease-in-out;
+    }
+
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1512,6 +1542,21 @@ a.footer-liens:hover{
 
 
 @media (max-width: 320px){
+    .active.item-nav::after {
+        width: 100%;
+    }
+    
+    .item-nav::after {
+        content: "";
+        display: block;
+        width: 0%;
+        height: 2px;
+        margin: 0 auto;
+        color: #F3976C;
+        background-color: #ffffff00;
+        transition: width 0.3s ease-in-out;
+    }
+    
     h2 {
         font-size: 18px;
         line-height: 1.4em;
