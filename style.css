@@ -869,17 +869,12 @@ h4 {
     padding-left: 50px;
 }
 
-
-
-
-
 /* changement nouveau footer*/
-
-
 footer{
     background-color: black;
     padding-top: 100px;
 }
+
 .col-logo2{
     display: flex;
     justify-content: center;
@@ -890,7 +885,6 @@ footer{
     width: 469px;
 
 }
-
 
 .nav-footer{
     display:flex ;
@@ -1005,7 +999,6 @@ a.footer-liens:hover{
         overflow-x: hidden;
         position: relative;
     }
-
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -1156,45 +1149,32 @@ a.footer-liens:hover{
     }
 }
 
-
 @media (min-width: 768px){
-
     .logo-2-footer{
         text-align: center;
     }
     .logo-2 {
         margin-bottom: 50px;
-        width: 469px;
-       
+        width: 469px;    
     }
-
     a.footer-liens:hover{
         color:#F3976C;
         text-decoration: underline;
     }
-
     .footer-lieu {
         color: #ffffff;
-        font-size: 20px;
-        
+        font-size: 20px;   
     }
 }
-
-
-
-
-
 
 /* développement mobile */
 @media (max-width: 425px) {
     .navbar-brand img[src$=svg] {
         min-width: 196px;
-    }
-    
+    }  
     .active.item-nav::after {
         width: 100%;
-    }
-    
+    } 
     .item-nav::after {
         content: "";
         display: block;
@@ -1204,63 +1184,50 @@ a.footer-liens:hover{
         color: #F3976C;
         background-color: #ffffff00;
         transition: width 0.3s ease-in-out;
-    }
-    
+    }  
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
-
     .bloc-md {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
     .bloc-lg {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
-
     .black-background {
         background-color: rgba(165, 147, 99, 0.7);
         padding: 50px 25px 50px 25px;
     }
-
     .title-row{
         font-size: 22px;
         line-height: 1.4em;
         margin-bottom: -30px;
         font-weight: 600;
     }
-
     h2 {
         font-size: 22px;
         line-height: 1.4em;
         margin-bottom: 25px;
         font-weight: 600;
     }
-
     h3 {
         font-size: 20px;
         text-transform: uppercase;
         font-weight: 700;
         color: #000000!important;
     }
-
     p {
         font-size: 18px;
     }
-
-
     .portfolio{
         margin-top: 50px;
     }
-
     .snapshot-lb .modal-body {
         padding-bottom: 81px;
     }
-
     .next-lightbox, .prev-lightbox {
         font-size: 20px;
         color: rgba(255, 255, 255, .9);
@@ -1271,32 +1238,24 @@ a.footer-liens:hover{
         z-index: 1;
         opacity: 0.4;
     }
-
-
     .contacter{
         margin-top: 25px;
         padding-left: 15px;
     }
-
-
     .btn-atomic-tangerine {
         background: black;
         color: #FFFFFF!important;
     }
-
-
     footer{
         background-color: black;
         padding-top: 50px;
     }
-    
     .logo-2{
         margin-bottom: 15px;
         width: 274px;
      
         margin-left: -4px;
-    }
-    
+    } 
     .nav-footer{
         display:flex ;
         justify-content:left;
@@ -1306,19 +1265,15 @@ a.footer-liens:hover{
         font-size: 20px;
         padding-left:15px ;
     }
-
     .footer-liens{
         color: white;
         text-decoration: none;
         font-size: 25px;
     }
-
     a.footer-liens:hover{
         color:#F3976C;
         text-decoration: underline;
     }
-    
-   
     .resumer{
         margin-top: 25px;
         padding-left: 15px;
@@ -1331,34 +1286,27 @@ a.footer-liens:hover{
         font-size: 18px;
         text-align: left;
     }
-
     .footer-lieu{
         color: #ffffff;
-        font-size: 17px;
-       
+        font-size: 17px;  
     }
-
     .col-logo2 {
         display: flex;
         justify-content: start;
     }
-
-
     .reseaux-sociaux{
         display: flex;
         justify-content: start;
-    margin-right: 15px;
+        margin-right: 15px;
         margin-top: 15px;
         margin-bottom: 15px;
         padding-left: 20px;
     }
-    .social{
-     
-    margin-right: 15px;
+    .social{  
+        margin-right: 15px;
         margin-top: 15px;
         margin-bottom: 15px;
     }
-
     .lieu{
         margin-bottom: 15px;
         display: flex;
@@ -1367,7 +1315,6 @@ a.footer-liens:hover{
     .bloc-copyright{
         display: none;
     }
-
     .scrollToTop {
         width: 40px;
         height: 40px;
@@ -1378,20 +1325,17 @@ a.footer-liens:hover{
         z-index: 500;
         transition: all .3s ease-in-out;
         display: none;
-    }
-    
+    }  
     .scrollToTop span {
         margin-top: 6px;
         display: none;
     }
-
 }
 
 @media (max-width: 375px) {
     .active.item-nav::after {
         width: 100%;
-    }
-    
+    }  
     .item-nav::after {
         content: "";
         display: block;
@@ -1402,66 +1346,52 @@ a.footer-liens:hover{
         background-color: #ffffff00;
         transition: width 0.3s ease-in-out;
     }
-
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
-
     .bloc-md {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
     .bloc-lg {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
-
     .black-background {
         background-color: rgba(165, 147, 99, 0.7);
         padding: 50px 25px 50px 25px;
     }
-
     .title-row{
         font-size: 18px;
         line-height: 1.4em;
         margin-bottom: -30px;
         font-weight: 600;
     }
-
     #bloc-1-hero h1 {
         font-size: 30px;
     }
-
     h2 {
         font-size: 18px;
         line-height: 1.4em;
         margin-bottom: 25px;
         font-weight: 600;
     }
-
     h3 {
         font-size: 17px;
         text-transform: uppercase;
         font-weight: 700;
         color: #333333!important;
     }
-
     p {
         font-size: 17px;
     }
-
-
     .portfolio{
         margin-top: 50px;
     }
-
     .snapshot-lb .modal-body {
         padding-bottom: 81px;
     }
-
     .next-lightbox, .prev-lightbox {
         font-size: 20px;
         color: rgba(255, 255, 255, .9);
@@ -1476,19 +1406,15 @@ a.footer-liens:hover{
         background: black;
         color: #FFFFFF!important;
     }
-
-
     footer{
         background-color: black;
         padding-top: 50px;
     }
-    
     .logo-2{
         margin-bottom: 15px;
         width: 220px;
       
     }
-    
     .nav-footer{
         display:flex ;
         justify-content:left;
@@ -1498,24 +1424,19 @@ a.footer-liens:hover{
         font-size: 17px;
         padding-left:15px;
     }
-
     .footer-liens{
         color: white;
         text-decoration: none;
         font-size: 25px;
     }
-
     a.footer-liens:hover{
         color:#F3976C;
         text-decoration: underline;
     }
-
     .col-logo2 {
         display: flex;
         justify-content: start;
     }
-    
-   
     .resumer{
         margin-top: 25px;
         padding-left: 15px;
@@ -1526,35 +1447,29 @@ a.footer-liens:hover{
         font-size: 17px;
         text-align: left;
     }
-
     .footer-lieu{
         color: #ffffff;
         font-size: 15px;
     }
-
-
     .reseaux-sociaux{
         display: flex;
         justify-content: start;
-    margin-right: 15px;
+        margin-right: 15px;
         margin-top: 15px;
         margin-bottom: 15px;
         padding-left: 20px;
     }
     .social{
-     
-    margin-right: 15px;
+        margin-right: 15px;
         margin-top: 15px;
         margin-bottom: 15px;
     }
-
     .lieu{
         margin-bottom: 15px;
     }
     .bloc-copyright{
         display: none;
     }
-
     .scrollToTop {
         width: 40px;
         height: 40px;
@@ -1566,22 +1481,16 @@ a.footer-liens:hover{
         transition: all .3s ease-in-out;
         display: none;
     }
-    
     .scrollToTop span {
         margin-top: 6px;
         display: none;
     }
-
-
 }
-
-
 
 @media (max-width: 320px){
     .active.item-nav::after {
         width: 100%;
-    }
-    
+    }  
     .item-nav::after {
         content: "";
         display: block;
@@ -1591,8 +1500,7 @@ a.footer-liens:hover{
         color: #F3976C;
         background-color: #ffffff00;
         transition: width 0.3s ease-in-out;
-    }
-    
+    } 
     h2 {
         font-size: 18px;
         line-height: 1.4em;
@@ -1606,7 +1514,6 @@ a.footer-liens:hover{
         background: black;
         color: #FFFFFF!important;
     }
-
     footer{
         background-color: black;
         padding-top: 50px;
@@ -1616,12 +1523,10 @@ a.footer-liens:hover{
         text-decoration: none;
         font-size: 25px;
     }
-
     a.footer-liens:hover{
         color:#F3976C;
         text-decoration: underline;
     }
-
     .scrollToTop {
         width: 40px;
         height: 40px;
@@ -1633,14 +1538,11 @@ a.footer-liens:hover{
         transition: all .3s ease-in-out;
         display: none;
     }
-    
     .scrollToTop span {
         margin-top: 6px;
         display: none;
     }
-
 }
-
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
